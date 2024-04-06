@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'posts',
     'profiles',
     # 3rd party apps
-    'cripsy forms'
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
