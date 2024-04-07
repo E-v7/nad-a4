@@ -38,7 +38,7 @@ def post_detail(request, pk):
         'form': form,
     }
     
-    return render(request, 'post/detail.html', context)
+    return render(request, 'posts/detail.html', context)
 
 def load_post_data_view(request, num_posts):
     # if request is ajax
